@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="js/jquery.bxslider.css">
+  <title>Projeto_Web</title>
+
+
+</head>
+
+<body>
+
+  <header id="cabecalho">
+    <div class="containerx">
+      <nav>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="internas/cursos.html">Cursos</a></li>
+          <li><a href="internas/linguagens.html">Linguagens</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div id="caixa">
+    <div class="container">
+      <h1>
+        <strong style="font-size: 23px;">Carreira de Programador</strong>
+      </h1>
+      <p>
+        A programação é um campo que tem progredido imensamente durante as últimas duas décadas, principalmente durante o período da pandemia, onde a busca por programadores por parte das grandes empresas foi crescendo. O impacto da digitalização nas organizações tem sido imenso – em todos os países, setores e funções.
+      </p>
+    </div>
+
+    <div class="wrapper">
+      <ul id="slider-area">
+        <li>
+          <img src="./imagens/prgming.png" alt="">
+        </li>
+        <li>
+          <img src="./imagens/programingicon.png"">
+        </li>
+        <li>
+          <img src=" ./imagens/img4.jpg" alt="">
+        </li>
+      </ul>
+    </div>
+
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $('#slider-area').bxSlider({
+          mode: 'horizontal',
+          // captions: true, title
+          // slideWidth: 800, tamanho
+          auto: true,
+          pager: true,
+          // speed: 100,
+          // controls: true
+        });
+
+      });
+    </script>
+
+    <div class="container">
+      <div class="programador">
+        <h1 class="texto">
+          <strong style="font-size: 23px;">
+            Sobre as áreas na programação
+          </strong>
+        </h1>
+        <h3 class="texto">
+          <strong>
+            Programador
+          </strong>
+        </h3>
+        <p>
+          Os programadores são aqueles que criam softwares que executam tarefas úteis. Eles precisam ter certeza que seu código está livre de bugs e que também atenda as expectativas do cliente. Trabalham geralmente em grandes equipes e servem para ler e atualizar o código existente.
+        <div class="linguagens">
+          <p>
+            Linguagens usadas por eles: Python, C#, C++ e Java.
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container">
+      <div class="desenv_jogos">
+        <h3 class="texto">
+          <strong>
+            Desenvolvedor de jogos
+          </strong>
+        </h3>
+        <p>
+          Para aqueles que curtem jogar e programar, é uma área dos sonhos. Os desenvolvedores de jogos
+          usam do conhecimento em programação para transformar ideias, desenhos e mecânicas em videogames.
+        </p>
+        <div class="linguagens">
+          <p>
+            Os desenvolvedores de jogos precisam saber linguagens como: C, C++, Java e C#. Além de frameworks como DirectX, OpenGL, Unity3D e WebGL.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="desenv_web">
+        <h3 class="texto">
+          <strong>
+            Desenvolvedor Web
+          </strong>
+        </h3>
+        <p>
+          Requer conhecimento tanto na área front-end e back-end.
+        </p>
+        <p>
+          Desenvolvedores Front-end são responsáveis por tudo que o usuário pode interagir. Como: botões, menus, conteúdo, layouts e o visual do site.
+          Desenvolvedores back-end escrevem código e implementam funcionalidade do site. São responsáveis pela parte de dados, servidor e arquitetura do sistema.
+        </p>
+        <div class="linguagens">
+          <p>
+            Como um desenvolvedor web, é importante saber linguagens básicas como HTML, CSS e Javascript. Conhecimentos como Python, C#, Java e SQL também são úteis.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="desenv_mob">
+        <h3 class="texto">
+          <strong>
+            Desenvolvedor Mobile
+          </strong>
+        </h3>
+        <p>
+          Um desenvolvedor mobile é responsável por criar aplicativos que são executados em smartphones e tablets. Um crescente número de usuários prefere usar aplicativos mobile. Isso fez com que a demanda por desenvolvedores disparasse nos últimos anos.
+        </p>
+        <div class="linguagens">
+          <p>
+            Desenvolvedores Mobile precisam saber linguagens como: C#, Java e Objective-C.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="caminho_program">
+        <h1 class="texto">
+          <strong style="font-size: 23px;">Trajetória de um Programador</strong>
+        </h1>
+        <h3>
+          <strong>
+            Júnior
+          </strong>
+        </h3>
+        <p>
+          A principal função de um desenvolvedor júnior é construir um software de qualidade e livre de bugs que atenda às expectativas do cliente. Você usará seu conhecimento de linguagens de programação, algoritmos e bancos de dados.
+        <p>
+          Como esta é uma posição de nível básico, você gastará uma quantidade significativa de tempo desenvolvendo suas habilidades de programação. Você pode achar a codificação de certos aplicativos um desafio, mas esta é sua oportunidade de aprender o ciclo de vida do desenvolvimento de software.
+        </p>
+        </p>
+
+        <h3>
+          <strong>
+            Sênior
+          </strong>
+        </h3>
+        <p>
+          Depois de ganhar de três a quatro anos de experiência, você agora será proficiente em escrever aplicativos de software complexos. Você também terá adquirido um conhecimento mais aprofundado de bancos de dados e algoritmos. Agora você está totalmente ciente da complexidade de todo o ciclo de vida do software/aplicativo.
+        </p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="habilidades">
+        <h1>
+          <strong style="font-size: 23px;">Habilidades necessárias para um programador</strong>
+        </h1>
+        <ul>
+          <li>Linguagens de Programação (Java, Python, etc)</li>
+          <li>Matemática</li>
+          <li>Pensamento Lógico</li>
+          <li>Comunicação</li>
+          <li>Criatividade</li>
+          <li>Atenção a detalhes</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="seguir_carreira">
+        <h1>
+          <strong style="font-size: 23px;">
+            Sobre seguir uma carreira na programação
+          </strong>
+        </h1>
+        <p>
+          Se você tivesse que escolher uma habilidade para aumentar suas chances de conseguir um emprego em tecnologia, teria que ser na programação. No mundo digital de hoje, estamos cercados por software. Tornou-se uma parte essencial do nosso dia a dia. De smartphones a máquinas de lavar, os aplicativos de computador vieram para ficar.
+        </p>
+
+        <p>
+          Aprender a codificar e entender linguagens de programação pode ajudá-lo a se destacar da multidão. Mesmo em funções não técnicas, a programação pode ajudá-lo a se comunicar com os programadores e a se relacionar com seus problemas.
+        </p>
+
+        <p>
+          Felizmente, aprender a programar hoje em dia é mais fácil do que nunca. Se você estiver interessado em seguir a carreira de programador, existem cursos que ensinam front-end, back-end, linguagens de programação e muito mais do que você precisa saber para se tornar um programador. <a href="/internas/cursos.html">Clique aqui para saber mais</a>
+        </p>
+
+      </div>
+    </div>
+  </div>
+
+  <footer id="rodape">
+    <address>
+      Projeto desenvolvido na aula de introdução À Tecnologia Web.<br>
+      1º Período - Turma 2022.1 | Curso: Sistema de Informação.<br>
+      Centro Universitário do Rio São Francisco - UniRios.<br>
+
+      Site implementado com HTML e CSS, utilizando a biblioteca jquery.
+    </address>
+
+  </footer>
+</body>
+
+</html>

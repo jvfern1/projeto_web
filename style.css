@@ -1,0 +1,104 @@
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.wrapper {
+  width: 500px;
+  margin: 0 auto;
+}
+
+#slider-area img {
+  width: 400px;
+  height: 300px;
+  margin-left: 50px;
+}
+
+#cabecalho {
+  background-color: rgb(32, 219, 252);
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  width: 100%;
+}
+
+#cabecalho .containerx {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#cabecalho nav li {
+  display: inline-block;
+}
+
+#cabecalho nav li a {
+  text-decoration: none;
+  color: var(--color-3);
+  display: block;
+  padding: 15px 30px;
+  transition: all 0.3s linear;
+}
+
+#cabecalho nav li a:hover {
+  background-color: var(--color-1);
+  color: var(--color-4);
+}
+
+.container,
+.fotos {
+  margin: 0 auto;
+  width: 800px;
+}
+
+.container h1,
+h3 {
+  font-size: 18px;
+}
+
+.container p,
+a {
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.container ul li {
+  margin-bottom: 23px;
+}
+
+#container_cursos {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#container_cursos a {
+  text-decoration: none;
+  color: rgb(36, 133, 224);
+}
+
+.galeria-fotos,
+img {
+  width: 280px;
+  height: 280px;
+  padding-bottom: 30px;
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  grid-gap: 50px;
+}
+#rodape {
+  background-color: rgb(94, 208, 253);
+  padding: 20px;
+}
+
+#rodape address {
+  font-style: normal;
+  text-align: center;
+  font-size: 12px;
+}
+
+.seguir_carreira {
+  margin-bottom: 30px;
+}
